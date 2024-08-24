@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --main-bg-color: #FFFFFF;
+    --main-bg-color2: #002333;
+    --main-bg-color3: #F2F2F2;
+    --main-bg-color4: #038C8C;
+    --main-text-color: #002333 ;
+    --accent-color: #61dafb;
+    --font-size-base: 18px;
+}
+
+
+
+body {
+   margin: 0;
+   padding: 0;
+}
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-size: var(--font-size-base);
+}
+
+a {
+    color: var(--accent-color);
+}
+
+
+@media (max-width: 600px) {
+    :root {
+        --font-size-base: 16px;
+    }
+}

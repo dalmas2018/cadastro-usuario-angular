@@ -1,0 +1,82 @@
+:root {
+  --main-bg-color: #FFFFFF;
+  --main-bg-color2: #002333;
+  --main-bg-color3: #B4BEC9;
+  --main-bg-color4: #038C8C;
+  --main-text-color: #002333 ;
+  --accent-color: #61dafb;
+  --font-size-base: 18px;
+}
+
+.login-container {
+  padding-top: 120px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  background-color: var(--main-bg-color3);
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+  display: flex;
+  flex-direction: column;
+}
+
+
+form h2 {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--main-bg-color2);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  outline: 0;
+  border-radius: 7px ;
+  border: 1px solid var(--main-bg-color2);
+  font-size: 17px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+}
+
+button {
+  width: 80%;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: var(--main-bg-color2);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button[disabled] {
+  background-color: var(--main-bg-color2);
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: var(--main-bg-color4);
+  color: var(--main-bg-color2);
+}
+
+p {
+  text-align: center;
+}

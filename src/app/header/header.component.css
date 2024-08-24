@@ -1,0 +1,40 @@
+/* header.component.css */
+
+:root {
+   --main-bg-color: #FFFFFF;
+   --main-bg-color2: #002333;
+   --main-bg-color3: #F2F2F2;
+   --main-bg-color4: #038C8C;
+   --main-text-color: #002333 ;
+   --accent-color: #61dafb;
+   --font-size-base: 18px;
+}
+
+.header {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--main-bg-color2);
+    border-bottom: 1px solid #e7e7e7;
+    position: fixed;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+
+  .navPrimaire {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+  }
+  .navPrimaire a {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 10px;
+  }
+  
+  
